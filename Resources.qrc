@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/Icon">
+        <file>remove_16.png</file>
+    </qresource>
+</RCC>
