@@ -1,5 +1,7 @@
-# C++ objects and libs
+*.swp
+Debug/*
 
+# C++ objects and libs
 *.slo
 *.lo
 *.o
