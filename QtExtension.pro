@@ -13,8 +13,13 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        extlineeditmainwindow.cpp
+        extlineeditmainwindow.cpp \
+    extlineedit.cpp
 
-HEADERS  += extlineeditmainwindow.h
+HEADERS  += extlineeditmainwindow.h \
+    extlineedit.h
 
 FORMS    += extlineeditmainwindow.ui
+
+RESOURCES += \
+    Resources.qrc
