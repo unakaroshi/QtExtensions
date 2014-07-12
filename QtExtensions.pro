@@ -1,0 +1,24 @@
+TARGET   = QtExtensions
+TEMPLATE = app
+
+QT += core 
+QT += gui
+
+greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
+
+
+SOURCES   += \
+             demo.cpp      \
+             extlineedit.cpp                \
+             extstackedwidget.cpp           \
+             main.cpp                       \
+
+HEADERS   += \
+             demo.h \
+             extlineedit.h           \
+             extstackedwidget.h      \
+
+FORMS     += \
+             demo.ui      \
+
+RESOURCES += Resources.qrc
