@@ -32,7 +32,7 @@ CExtLineEdit::CExtLineEdit(QWidget* parent)
 
     // Note on the StateMachine:
     // Propertyassignment is added in CExtLineEdit::layoutClearButton()
-    // because we don't no the size of the button here.
+    // because we don't know the size of the button here.
     // Starting of the the StateMachine is also done in CExtLineEdit::layoutClearButton().
     QSignalTransition *transition;
     transition = m_textNotEmptyState->addTransition(this, SIGNAL(textEmptyToggled()), m_textEmptyState);
