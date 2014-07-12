@@ -1,10 +1,11 @@
-#include "extlineeditmainwindow.h"
+#include "demo.h"
+//#include "extstackedwidgetmainwindow.h"
 #include <QApplication>
 
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
-    CExtLineEditMainWindow w;
+    CDemo w;
     w.show();
 
     return a.exec();
