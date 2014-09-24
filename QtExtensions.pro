@@ -12,11 +12,14 @@ SOURCES   += \
              extlineedit.cpp                \
              extstackedwidget.cpp           \
              main.cpp                       \
+    codeeditor.cpp
 
 HEADERS   += \
              demo.h \
              extlineedit.h           \
              extstackedwidget.h      \
+    codeeditor.h \
+    linenumberarea.h
 
 FORMS     += \
              demo.ui      \

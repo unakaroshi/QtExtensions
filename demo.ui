@@ -128,6 +128,16 @@
          <string>CheckBox</string>
         </property>
        </widget>
+       <widget class="CCodeEditor" name="textEdit">
+        <property name="geometry">
+         <rect>
+          <x>43</x>
+          <y>68</y>
+          <width>331</width>
+          <height>111</height>
+         </rect>
+        </property>
+       </widget>
       </widget>
       <widget class="QWidget" name="page_3">
        <widget class="QCheckBox" name="checkBox">
@@ -193,7 +203,7 @@
      <x>0</x>
      <y>0</y>
      <width>422</width>
-     <height>20</height>
+     <height>26</height>
     </rect>
    </property>
   </widget>
@@ -219,6 +229,11 @@
    <extends>QStackedWidget</extends>
    <header>extstackedwidget.h</header>
    <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>CCodeEditor</class>
+   <extends>QTextEdit</extends>
+   <header>codeeditor.h</header>
   </customwidget>
  </customwidgets>
  <resources/>
